@@ -1,0 +1,1 @@
+document.getElementsByClassName("tab-label lost")[0].click();

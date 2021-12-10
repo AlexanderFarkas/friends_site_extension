@@ -1,0 +1,12 @@
+{
+  "name": "Friends Extension",
+  "description": "Automatically sets voice acting to Paramount",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://friends-online.me/series/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
